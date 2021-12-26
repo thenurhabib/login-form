@@ -6,7 +6,7 @@ A simple login page made with HTML5 & CSS3.
 
 ## Screenshot
 
-![App Screenshot](./screenshort.pg)
+![App Screenshot](./Screenshot.png)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.nurhabib.ml/)
