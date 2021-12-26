@@ -1,0 +1,114 @@
+/* css reset  */
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    background-image : url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    width            : 100%;
+    height           : 100%;
+    background-size  : cover;
+    margin           : 0 auto;
+}
+
+/* login box  */
+.container {
+    background-color: azure;
+    width           : 400px;
+    height          : 550px;
+    border-radius   : 5px;
+    position        : absolute;
+    text-align      : center;
+    top             : 0;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+    margin          : auto;
+
+}
+
+/* main text styling  */
+.form h1 {
+    font-family   : 'Heebo', sans-serif;
+    margin        : 40px 0px;
+    font-size     : 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* input option styling  */
+form input {
+    background   : transparent;
+    margin       : 10px 0px;
+    padding      : 5px 30px;
+    border-style : none;
+    border-bottom: 1px solid rgba(133, 131, 131, 0.521);
+    right        : 20px;
+}
+
+label {
+    position : relative;
+    font-size: 11px;
+    top      : 20px;
+    left     : -93px;
+    opacity  : 0.8;
+}
+
+/* login button styling  */
+.loginButton {
+    width         : 235px;
+    padding       : 5px 0px;
+    margin        : 20px 0px;
+    border-style  : none;
+    border-radius : 20px;
+    font-size     : 16px;
+    font-family   : 'Heebo', sans-serif;
+    text-transform: uppercase;
+    background    : linear-gradient(90deg, aqua, rgb(0, 140, 255));
+}
+
+.loginButton:hover {
+    background: linear-gradient(90deg, rgb(2, 170, 170), rgb(1, 89, 161));
+}
+
+/* forget password link styling  */
+.forgetPass {
+    font-size      : 12px;
+    position       : relative;
+    left           : 69px;
+    top            : -8px;
+    text-decoration: none;
+    color          : rgb(6, 88, 88);
+    font-family    : Arial, Helvetica, sans-serif;
+}
+
+
+/* signUp option styling  */
+p,
+.signUp {
+    font-size: 15px;
+    margin   : 5px 0px;
+}
+
+.signUp {
+    text-decoration: none;
+    color          : rgb(6, 88, 88);
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width : 300px;
+        height: 450px;
+    }
+
+    .form h1 {
+        margin        : 20px 0px;
+        font-size     : 20px;
+        letter-spacing: 3px;
+    }
+
+}
